@@ -2,8 +2,8 @@
 
 public class Complex {
 
-	final double x;
-	final double y;
+	double x;
+	double y;
 	
 	//Создаем комплексное чилсо 2 значениями
 	public Complex(double x, double y){
