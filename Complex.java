@@ -36,7 +36,7 @@ public class Complex {
 	public double pow2() { return x * x + y * y; }
 	//переопределние метода toString для вывода числа
 	@Override
-    public String toString() { return "Complex [x=" + x + ", y=" + y + "]"; }
+    	public String toString() { return "Complex [x=" + x + ", y=" + y + "]"; }
 	
 	
 
