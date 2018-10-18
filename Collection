@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
+public class Collection {
+
+//4 лаб
+
+	public static void main(String[] args) {
+		
+		List<Integer> list = new ArrayList<>();
+		Scanner sc = new Scanner(System.in);
+		
+		int num = 0;
+		//пока не введен -1 все числа будут добавлятся в коллекцию
+		while(num != -1) {
+			list.add(num);
+			num = sc.nextInt();
+		}
+		
+		//сумма числе больше или равно 5
+		System.out.println(list.stream().filter(n -> n >= 5).reduce((n1,n2) -> n1+n2));
+		
+		list = list.stream().filter(n -> Math.abs(n) < 5).collect(Collectors.toList());
+		
+			
+		
+	}
+
+}
