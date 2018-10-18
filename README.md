@@ -1,2 +1,2 @@
-# Lab16_Ometov
+# Labs_Ometov
 Комплексные числа
