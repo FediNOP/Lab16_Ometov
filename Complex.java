@@ -39,6 +39,23 @@ public class Complex {
     	public String toString() { return "Complex [x=" + x + ", y=" + y + "]"; }
 	
 	
+	class Main {
+	
+		public static void main(String[] args){
+		
+			//комплексное число х=1 у=1
+			Complex a = new Complex(1,1);
+			//комплексное число х=2 у=2
+			Complex b = new Complex(2,2);
+			
+			// сложение а + b
+			a = a.plus(b);
+			//итд
+		}
+	
+	
+	}
+	
 
 }
 
